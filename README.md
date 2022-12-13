@@ -72,7 +72,7 @@ Simply run
    http://localhost:3000/artisty - to get the whole arts data
    http://localhost:3000/artisty-api/1 - to get the art with an id of 1
 
-Resources:
+#### Resources:
 
  For more resouces you can visit the link below:
  https://rubyonrails.org
