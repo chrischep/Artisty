@@ -5,21 +5,24 @@ import Search from "./Search";
 
 
 function ArtsPage() {
-  const [arts, setArts] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-
+  
   const demoData = [
     {
       "id": 1,
       "name": "John Snows Rock",
-      "image": "therock.svg",
-      "price": "434"
+      "image": "https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "price": "434",
+      "description": "this is the description"
     }
   ]
-
+  
+  const [arts, setArts] = useState(demoData);
+  //const baseUrl = "https://artisty-production.up.railway.app/admins"
+  const baseUrl = "https://art-data.glitch.me/data"
+  
   useEffect(() => {
-    //fetch("http://localhost:3000")
-    fetch("/arts")
+    fetch(baseUrl)
       .then((r) => r.json())
       .then((artsArray) => {
         setArts(artsArray);
@@ -45,3 +48,4 @@ function ArtsPage() {
 }
 
 export default ArtsPage;
+
