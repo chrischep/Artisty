@@ -24,13 +24,13 @@
  First you need to have rails and bundler intalled globally in your machine.
    Simply by installing the latest version.
 
- <> Installation
+ #### Installation
 
      >Run the following commands:
        $ gem install bundler
        $ gem install rails
 
- <> Installation of node.js
+ #### Installation of node.js
    
      run:-
      $nvm install 16
@@ -40,7 +40,7 @@
      Then verify the node version using:
       $node -v 
 
- <> Install Postgresql
+ ##### Install Postgresql
 
 
  Deploying requires that you use PostgreSQL for your database instead of SQLite. PostgreSQL (or just Postgres for short) is an advanced database management system with more features than SQLite. If you don't already have it installed, you'll need to set it up.  
