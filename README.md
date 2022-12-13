@@ -1,6 +1,6 @@
-Artisty Application
+# Artisty Application
        
->>>>>>>    Ruby on rails backend.
+## Ruby on rails backend.
 
 >>The project is Artisty Api Rails backend.
 >>The project requrements were as follows:-
