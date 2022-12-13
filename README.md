@@ -10,7 +10,7 @@
     >Postgresql
     >Deploying
 
->>To run the project in your browser you can fork and clone and run the following commands:-
+>> To run the project in your browser you can fork and clone and run the following commands:-
 
         $ bundle install
         $ rails db:migrate db:seed
