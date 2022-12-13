@@ -63,7 +63,7 @@
         >Then enter control + d or type logout to exit.  
         
 
-USING THE PROJECT
+## USING THE PROJECT
 
 Simply run 
   $rails s: then http://localhost:3000 in your browser
