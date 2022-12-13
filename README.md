@@ -17,7 +17,7 @@
         $ rails s: run the backend on http://localhost:3000      
 
 
-## GETTING STARTED WITH THE PROJECT
+### GETTING STARTED WITH THE PROJECT
 
  <>INSTALLATIONS
 
