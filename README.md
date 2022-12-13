@@ -99,7 +99,7 @@ I created a new repository on the client(frontend) folder for deployment;
         The rails server must be running in order to see the fetched data on the screen.
           >> rails s
 
- DEPLOYMENT BACKEND
+ ### DEPLOYMENT BACKEND
 
  This is my deployed backend url
     >>> https://artisty-production.up.railway.app/
